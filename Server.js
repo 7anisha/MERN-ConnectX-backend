@@ -13,7 +13,7 @@ const adminRoute = require("./routes/admin-router");
 require("dotenv").config;
 
 const corsOptions = {
-  origin: "http://localhost:5173",
+  origin: ["http://localhost:5173", "https://mern-connect-x-frontend.vercel.app/"],
   methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
   credentials: true,
 };
